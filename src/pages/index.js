@@ -23,7 +23,7 @@ export default  ({data}) => {
     <Seo title="Home" />
     <div>
       <h1>Yuki</h1>
-      <h4>{data.allMarkdownRemark.totalCount}</h4>
+      <h4>{data.allMarkdownRemark.totalCount} posts.</h4>
       {
         data.allMarkdownRemark.edges.map( ({node}) => (
         
